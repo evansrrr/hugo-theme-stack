@@ -31,10 +31,10 @@ languages:
 services:
     # Change it to your Disqus shortname before using
     disqus:
-        shortname: "hugo-theme-stack"
+        shortname: "evansrblog"
     # GA Tracking ID
     googleAnalytics:
-        id:
+        id: GTM-NDSNG25B
 
 pagination:
     pagerSize: 3
@@ -79,7 +79,7 @@ params:
         provider: disqus
 
         disqusjs:
-            shortname:
+            shortname: evansrblog
             apiUrl:
             apiKey:
             admin:
@@ -176,7 +176,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: EnzoRaziore
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -209,13 +209,13 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/evnasrrr
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com
+          url: https://twitter.com/EnzoRaziore
           params:
               icon: brand-twitter
 
