@@ -8,11 +8,11 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: img/avatar.png
 
     footer:
-        since: "2025"
-        customText:
+        since: 2025
+        customText: made with ❤️ by Evans
 
     dateFormat:
         published: Jan 02, 2006
@@ -21,7 +21,7 @@ params:
     sidebar:
         compact: false
         emoji:
-        subtitle:
+        subtitle: this is a subtitle
         avatar:
             enabled: true
             local: true
