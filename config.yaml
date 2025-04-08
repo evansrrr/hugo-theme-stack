@@ -3,51 +3,6 @@ module:
         extended: true
         min: "0.87.0"
 
-baseurl: https://evans-blog.netlify.app/
-languageCode: en-us
-theme: hugo-theme-stack
-title: Evans Blog
-copyright: Evans
-
-# Theme i18n support
-# Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: en
-
-# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
-# This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: true
-
-languages:
-    en:
-        languageName: English
-        title: Evans Blog
-        weight: 1
-        params:
-            sidebar:
-                subtitle: Webspace for blog etc.
-    zh-cn:
-        languageName: 简体中文
-        title: Evans博客
-        weight: 2
-        params:
-            sidebar:
-                subtitle: 大约是个博客之类的
-
-services:
-    # Change it to your Disqus shortname before using
-    disqus:
-        shortname: "hugo-theme-stack"
-    # GA Tracking ID
-    googleAnalytics:
-        id:
-
-pagination:
-    pagerSize: 3
-
-permalinks:
-    post: /p/:slug/
-    page: /:slug/
-
 params:
     mainSections:
         - post
