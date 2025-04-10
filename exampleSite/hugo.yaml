@@ -20,13 +20,6 @@ languages:
         params:
             sidebar:
                 subtitle: Webspace for blog etc.
-    zh-cn:
-        languageName: 简体中文
-        title: Evans博客
-        weight: 2
-        params:
-            sidebar:
-                subtitle: 大约是个博客罢
 
 services:
     # Change it to your Disqus shortname before using
